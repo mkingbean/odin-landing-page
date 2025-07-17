@@ -6,6 +6,7 @@ body {
 .banner {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #1F2937;
     gap: 32px;
     padding: 64px 256px;
@@ -17,8 +18,7 @@ body {
 
 .hero-image {
     flex: 1;
-    background-color: grey;
-    text-align: center;
+    min-width: 0;
 }
 
 .hero-text > h1 {
