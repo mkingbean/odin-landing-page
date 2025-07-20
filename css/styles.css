@@ -40,6 +40,10 @@ button {
     border-radius: 10px;
 }
 
+.info {
+    padding-bottom: 128px;
+}
+
 .info-header {
     text-align: center;
     font-size: 36px;
@@ -66,8 +70,6 @@ button {
     border-radius: 10px;
     width: 300px;
     height: 300px;
-    min-width: 0px;
-    min-height: 0px;
 }
 
 .description {
