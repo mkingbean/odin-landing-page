@@ -130,11 +130,11 @@ button {
     color: #E5E7EB;
     font-size: 18px;
     padding: 0px 256px;
+    background-color: #1F2937;
 }
 
 .header {
     justify-content: space-between;
-    background-color: #1F2937;
 }
 
 .header > .logo {
