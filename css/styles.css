@@ -1,44 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto";
+    font-size: 18px;
 }
-.banner {
+
+.header, .footer, .hero {
     display: flex;
-    justify-content: center;
     align-items: center;
+    color: #E5E7EB;
     background-color: #1F2937;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.header, .footer {
+    height: 64px;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.header > .logo {
+    font-size: 24px;
+}
+
+.header > .logo, .hero-text > h1, button {
+    color: #F9FAF8;
+}
+
+.header > ul {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.header a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.footer > p {
+    margin: auto;
+}
+
+.hero {
+    justify-content: center;
     gap: 32px;
-    padding: 64px 256px;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
-.hero-text {
+.hero > .hero-text, img {
     flex: 1;
 }
 
-.hero-image {
-    flex: 1;
-    min-width: 0;
+.hero > img {
+    min-width: 0; /* Allows img to shrink below initial size */
 }
 
 .hero-text > h1 {
-    margin: 8px;
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 8px;
 }
 
-.hero-subtitle {
-    margin: 8px;
+.hero-text > .subtitle {
     font-size: 18px;
-    color: #E5E7EB;
+    margin-bottom: 16px;
 }
 
 button {
     background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 10px;
-    color: #F9FAF8;
+    border: none;
 }
 
 .info {
@@ -123,35 +170,3 @@ button {
     border-color: #F9FAF8;
 }
 
-.header, .footer {
-    display: flex;
-    align-items: center;
-    height: 64px;
-    color: #E5E7EB;
-    font-size: 18px;
-    padding: 0px 256px;
-    background-color: #1F2937;
-}
-
-.header {
-    justify-content: space-between;
-}
-
-.header > .logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.header > ul {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    gap: 16px;
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-.footer > p {
-    margin: auto;
-}
