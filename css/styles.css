@@ -122,3 +122,10 @@ button {
 .signup-box > button {
     border-color: #F9FAF8;
 }
+
+.header, .footer {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    color: #E5E7EB;
+    font-size: 18px;
