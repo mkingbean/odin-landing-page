@@ -129,4 +129,25 @@ button {
     height: 64px;
     color: #E5E7EB;
     font-size: 18px;
+    padding: 0px 256px;
+}
+
+.header {
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header > .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header > ul {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
