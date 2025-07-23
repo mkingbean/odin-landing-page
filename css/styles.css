@@ -11,9 +11,14 @@ body {
     font-size: 18px;
 }
 
-.header, .footer, .hero, .info, .quotes, .signup {
+.header, .footer, .hero, .signup {
     padding-left: 15%;
     padding-right: 15%;
+}
+
+.info, .quote {
+    padding-left: 25%;
+    padding-right: 25%
 }
 
 .header, .footer, .hero {
@@ -101,9 +106,12 @@ button {
     padding: 48px;
 }
 
+.info h2, .info p, .quote p {
+    color: #1F2937;
+}
+
 .info h2, .info p {
     text-align: center;
-    color: #1F2937;
 }
 
 .media-object-wrapper {
@@ -125,15 +133,16 @@ button {
     width: 100%;
 }
 
-.quotes {
+
+.quote {
     background-color: #E5E7EB;
-    padding: 128px 25%;
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 
-.quote-text {
+.quote > p {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
 }
 
 .quote-author {
