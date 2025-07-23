@@ -40,7 +40,7 @@ body {
     font-size: 24px;
 }
 
-.header > .logo, .hero-text > h1, button {
+.header > .logo, .hero-text > h1, button, .signup-message {
     color: #F9FAF8;
 }
 
@@ -152,7 +152,8 @@ button {
 }
 
 .signup {
-    padding: 128px 15%;
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 
 .signup-box {
@@ -160,20 +161,15 @@ button {
     justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
-    padding: 64px 128px;
+    padding: 48px 112px;
     border-radius: 10px;
 }
 
-.signup-message {
-    color: #F9FAF8;
-}
-
-.signup-header {
+.signup-message > h2 {
     font-size: 18px;
     font-weight: 900;
 }
 
 .signup-box > button {
-    border-color: #F9FAF8;
+    border: 2px solid currentColor;
 }
-
