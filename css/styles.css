@@ -11,13 +11,16 @@ body {
     font-size: 18px;
 }
 
+.header, .footer, .hero, .info, .quotes, .signup {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .header, .footer, .hero {
     display: flex;
     align-items: center;
     color: #E5E7EB;
     background-color: #1F2937;
-    padding-left: 15%;
-    padding-right: 15%;
 }
 
 .header, .footer {
@@ -92,15 +95,18 @@ button {
     padding-bottom: 128px;
 }
 
-.info-header {
-    text-align: center;
+.info h2 {
     font-size: 36px;
-    color: #1F2937;
     font-weight: 900;
     padding: 48px;
 }
 
-.info-content {
+.info h2, .info p {
+    text-align: center;
+    color: #1F2937;
+}
+
+.media-object-wrapper {
     display: flex;
     justify-content: center;
     gap: 36px;
@@ -109,22 +115,14 @@ button {
 .media-object {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 8px;
 }
 
-.illustration {
+.media-object > .img-wrapper {
     border: 2px solid #3882F6;
     border-radius: 10px;
-    width: 300px;
-    height: 300px;
-}
-
-.description {
-    width: 300px;
-    text-align: center;
-    font-size: 18px;
-    color: #1F2937;
+    aspect-ratio: 1/1;
+    width: 100%;
 }
 
 .quotes {
