@@ -1,9 +1,5 @@
 # odin-landing-page
 
-https://mkingbean.github.io/odin-landing-page/
-
-## Images
-
 goat.jpg: Photo by Maria Tyutina: https://www.pexels.com/photo/white-goat-eating-grass-1228438/
 
 goat_1.jpg: Photo by Pixabay: https://www.pexels.com/photo/white-goat-eating-grass-during-daytime-144240/
